@@ -1,0 +1,10 @@
+{
+    "name": "koubeko/php-mvc-framework-core",
+    "authors": [
+        {
+            "name": "Ondrej Koubek",
+            "email": "koubeko@seznam.cz"
+        }
+    ],
+    "require": {}
+}
