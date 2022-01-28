@@ -6,13 +6,13 @@
  * Time: 19:39
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
 /**
  * Class Response
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Response
 {

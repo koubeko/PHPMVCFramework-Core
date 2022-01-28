@@ -6,5 +6,10 @@
             "email": "koubeko@seznam.cz"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "koubeko\\phpmvc": "./"
+        }
+    }
 }

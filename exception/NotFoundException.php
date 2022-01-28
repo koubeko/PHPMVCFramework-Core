@@ -6,13 +6,13 @@
  * Time: 10:40
  */
 
-namespace app\core\exception;
+namespace koubeko\phpmvc\exception;
 
 /**
  * Class NotFoundException
  *
  * @author Ondřej Koubek
- * @namespace app\core\exception
+ * @namespace koubeko\phpmvc\exception
  */
 class NotFoundException extends \Exception
 {

@@ -6,16 +6,16 @@
  * Time: 14:16
  */
 
-namespace app\core\form;
+namespace koubeko\phpmvc\form;
 
-use app\core\Model;
+use koubeko\phpmvc\Model;
 use JetBrains\PhpStorm\Pure;
 
 /**
  * Class Field
  *
  * @author Ondřej Koubek
- * @namespace app\core\form
+ * @namespace koubeko\phpmvc\form
  */
 class InputField extends BaseField
 {
@@ -26,7 +26,7 @@ class InputField extends BaseField
     public string $type;
 
     /**
-     * @param \app\core\Model $model
+     * @param \koubeko\phpmvc\Model $model
      * @param string $attribute
      */
     #[Pure] public function __construct(Model $model, string $attribute)

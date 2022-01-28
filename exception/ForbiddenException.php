@@ -6,13 +6,13 @@
  * Time: 10:05
  */
 
-namespace app\core\exception;
+namespace koubeko\phpmvc\exception;
 
 /**
  * Class ForbiddenException
  *
  * @author Ondřej Koubek
- * @namespace app\core\exception
+ * @namespace koubeko\phpmvc\exception
  */
 class ForbiddenException extends \Exception
 {

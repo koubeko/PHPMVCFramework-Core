@@ -6,9 +6,9 @@
  * Time: 19:09
  */
 
-namespace app\core\db;
+namespace koubeko\phpmvc\db;
 
-use app\core\Application;
+use koubeko\phpmvc\Application;
 use PDO;
 use PDOStatement;
 
@@ -16,7 +16,7 @@ use PDOStatement;
  * Class Database
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Database
 {

@@ -6,13 +6,13 @@
  * Time: 10:53
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
 /**
  * Class View
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class View
 {

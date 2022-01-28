@@ -6,16 +6,16 @@
  * Time: 10:19
  */
 
-namespace app\core\db;
+namespace koubeko\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use koubeko\phpmvc\Application;
+use koubeko\phpmvc\Model;
 
 /**
  * Class DBModel
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 abstract class DBModel extends Model
 {

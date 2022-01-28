@@ -6,7 +6,7 @@
  * Time: 19:37
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
 use JetBrains\PhpStorm\Pure;
 
@@ -14,7 +14,7 @@ use JetBrains\PhpStorm\Pure;
  * Class Request
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Request
 {

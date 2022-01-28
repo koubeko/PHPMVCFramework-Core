@@ -6,13 +6,13 @@
  * Time: 9:51
  */
 
-namespace app\core\middlewares;
+namespace koubeko\phpmvc\middlewares;
 
 /**
  * Class BaseMiddleware
  *
  * @author Ondřej Koubek
- * @namespace app\core\middlewares
+ * @namespace koubeko\phpmvc\middlewares
  */
 abstract class BaseMiddleware
 {

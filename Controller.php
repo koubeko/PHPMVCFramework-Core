@@ -6,22 +6,22 @@
  * Time: 19:57
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use koubeko\phpmvc\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Controller
 {
     public string $layout = 'main';
     public string $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \koubeko\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -41,7 +41,7 @@ class Controller
     }
 
     /**
-     * @return \app\core\middlewares\BaseMiddleware[]
+     * @return \koubeko\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

@@ -6,19 +6,19 @@
  * Time: 20:26
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DBModel;
-use app\core\Router;
-use app\core\Request;
-use app\core\Response;
+use koubeko\phpmvc\db\Database;
+use koubeko\phpmvc\db\DBModel;
+use koubeko\phpmvc\Router;
+use koubeko\phpmvc\Request;
+use koubeko\phpmvc\Response;
 
 /**
  * Class Application
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Application
 {

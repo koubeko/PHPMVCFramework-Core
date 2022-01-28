@@ -6,18 +6,18 @@
  * Time: 20:45
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
-use app\core\exception\ForbiddenException;
-use app\core\exception\NotFoundException;
-use app\core\Request;
-use app\core\Response;
+use koubeko\phpmvc\exception\ForbiddenException;
+use koubeko\phpmvc\exception\NotFoundException;
+use koubeko\phpmvc\Request;
+use koubeko\phpmvc\Response;
 
 /**
  * Class Router
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Router
 {
@@ -47,7 +47,7 @@ class Router
     }
 
     /**
-     * @throws \app\core\exception\NotFoundException
+     * @throws \koubeko\phpmvc\exception\NotFoundException
      */
     public function resolve(): mixed
     {
@@ -61,7 +61,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \koubeko\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

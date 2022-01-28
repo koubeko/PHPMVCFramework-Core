@@ -6,16 +6,16 @@
  * Time: 9:55
  */
 
-namespace app\core\middlewares;
+namespace koubeko\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use koubeko\phpmvc\Application;
+use koubeko\phpmvc\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
  * @author Ondřej Koubek
- * @namespace app\core\middlewares
+ * @namespace koubeko\phpmvc\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {
@@ -31,7 +31,7 @@ class AuthMiddleware extends BaseMiddleware
 
 
     /**
-     * @throws \app\core\exception\ForbiddenException
+     * @throws \koubeko\phpmvc\exception\ForbiddenException
      */
     public function execute()
     {

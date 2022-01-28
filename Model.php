@@ -6,7 +6,7 @@
  * Time: 15:30
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
 use JetBrains\PhpStorm\Pure;
 
@@ -14,7 +14,7 @@ use JetBrains\PhpStorm\Pure;
  * Class Model
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 abstract class Model
 {

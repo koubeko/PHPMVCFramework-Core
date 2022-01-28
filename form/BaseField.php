@@ -6,15 +6,15 @@
  * Time: 12:41
  */
 
-namespace app\core\form;
+namespace koubeko\phpmvc\form;
 
-use app\core\Model;
+use koubeko\phpmvc\Model;
 
 /**
  * Class BaseField
  *
  * @author Ondřej Koubek
- * @namespace app\core\form
+ * @namespace koubeko\phpmvc\form
  */
 abstract class BaseField
 {

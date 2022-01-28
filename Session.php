@@ -6,13 +6,13 @@
  * Time: 13:35
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
 /**
  * Class Session
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 class Session
 {

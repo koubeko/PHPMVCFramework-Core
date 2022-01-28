@@ -6,13 +6,13 @@
  * Time: 12:54
  */
 
-namespace app\core\form;
+namespace koubeko\phpmvc\form;
 
 /**
  * Class TextareaField
  *
  * @author Ondřej Koubek
- * @namespace app\core\form
+ * @namespace koubeko\phpmvc\form
  */
 class TextareaField extends BaseField
 {

@@ -6,15 +6,15 @@
  * Time: 8:48
  */
 
-namespace app\core;
+namespace koubeko\phpmvc;
 
-use app\core\db\DBModel;
+use koubeko\phpmvc\db\DBModel;
 
 /**
  * Class UserModel
  *
  * @author Ondřej Koubek
- * @namespace app\core
+ * @namespace koubeko\phpmvc
  */
 abstract class UserModel extends DBModel
 {
